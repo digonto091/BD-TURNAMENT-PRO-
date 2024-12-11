@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tournament App</h1>
+    </header>
+    <main>
+        <section id="register">
+            <h2>Register for Tournament</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section id="participants">
+            <h2>Participants</h2>
+            <ul id="participantList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
